@@ -1,0 +1,2 @@
+#nuevo proyecto angular
+ng new your-app --no-standalone

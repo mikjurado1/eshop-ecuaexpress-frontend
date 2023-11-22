@@ -1,0 +1,71 @@
+<nav>
+    <div class="pc-header-fullContainer">
+        <div class="logo__container">
+                <a class="logo"></a>
+        </div>  
+        <div class="header__containerRight">
+            <div class="header__search">
+                <div class="search__search">
+                    <div class="search__internLeft">
+                        <input type="text" [(ngModel)]="inputValue" (click)="toggleDropdown()" [placeholder]="placeholderText"/>
+                        <div class="dropdown-menu" *ngIf="showDropdown">
+                            <div class="dropdown-item" *ngFor="let category of categories" (click)="seleccionarOpcion(category)">
+                                <p style="background-color:blue">{{ category.name }}</p>
+                                <img [src]="'https:'+category.image" alt="{{ category.image }}">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search__internRight">
+                        <a class="search__logoContainer"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></a>
+                    </div>  
+                </div>                    
+            </div>  
+            <div class="pcheader__items">
+                <div class="download__menuItem">
+                    <div class="download__qrcode">
+                        <a><i class="fa-solid fa-qrcode"></i></a>
+                    </div>
+                    <div class="download__textContainer">
+                        <div class="download__text">
+                            <span>Descargar la App de EcuaExpress</span>
+                        </div>    
+                    </div>
+                </div>
+                <div class="shipto__metuItems">
+                    <div class="shipto__flag">
+                        <a class="shipto__img"><img src="../../../assets/france.png"/></a>                        
+                    </div>
+                    <div class="shipto__small">
+                        <span>Other/ES/</span>
+                        <div class="shipto__smallDown">
+                            <span>EUR</span>
+                            <span><i class="fa-solid fa-chevron-down"></i></span>
+                        </div> 
+                    </div>
+                </div>
+                <div class="myaccount__menuItem">
+                    <div class="myaccount__user">
+                        <a class="myaccont__icon"><i class="fa-regular fa-user"></i></a>
+                    </div>
+                    <div class="myaccount__register">
+                        <span>Bienvenido</span>
+                        <span>Identificate/Registrate <i class="fa-solid fa-chevron-down"></i></span>
+                    </div>
+                </div>
+                <div class="shopcart__menuItem">
+                    <div class="shopcart__icon">
+                        <a><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                    <div class="shopcart__numberContainer">
+                        <div class="shopcart__number"><span>0</span></div>
+                        <div class="shopcart__cesta"><span>Cesta</span></div>
+                        
+                    </div>
+                </div>
+            </div>
+                        
+        </div> 
+        
+    </div>
+   
+</nav>

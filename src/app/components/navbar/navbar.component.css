@@ -1,0 +1,256 @@
+.pc-header-fullContainer{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 3rem 1rem 3rem;
+    background-color: #191919;
+    width: 100%;
+    height: 6rem;
+    
+
+}
+
+.logo__container{
+    display: flex;
+    flex-direction: row;
+    height: 4rem;
+    width: 16rem;
+    background-color: #191919;
+    padding: 0 1rem;
+
+}
+
+.logo{
+    display: flex;
+    height:4rem ;
+    width: 13rem;
+    background-color: #fff;
+}
+
+.header__containerRight{
+    display: flex;
+    flex-direction: row;
+    height: 5rem;
+    width: 62rem;
+    background-color: #191919;
+    
+}
+
+.header__search{
+    width: 26rem;
+    height: 3rem;
+    background-color: #191919;
+
+}
+
+.search__search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 26rem;
+    height: 2.5rem;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 0.2rem 0.2rem;
+    margin: 0.5rem 0 0 0;
+
+
+}
+
+.search__internLeft{
+    margin: 0.2rem 0.4rem;
+    height: 1.25rem;
+    width: 21rem;
+    background-color: #fff;
+}
+
+.search__internLeft input{
+    margin: 0.2rem 0.4rem;
+    display: flex;
+    align-items: center;
+    height: 1.25rem;
+    width: 21rem;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.search__internLeft input:focus{
+    outline: none;
+
+}
+
+.search__internRight{
+    margin: 0.2rem 0.4rem;
+    width: 3.5rem;
+    height: 2rem;
+    background-color: #191919;
+    border-radius: 25px;
+
+}
+
+.search__logoContainer{
+    display: flex;
+    justify-content: center;
+    padding: 0.4rem 0.4rem;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.pcheader__items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0.2rem 0.4rem;
+    height: 2.75rem;
+    width: 35rem;
+    background-color: #191919;
+}
+
+.download__menuItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 9.5rem;
+    height: 2.75rem;
+    padding: 0.5rem 0.5rem;
+   
+}
+
+.download__qrcode{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #191919;
+}
+
+.download__qrcode i{
+    display: flex;
+    justify-content: right;
+    font-size: 2.5rem;
+    color: #fff;
+
+}
+
+.download__textContainer{
+    width: 6.25rem;
+    height: 2rem;
+}
+
+.download__text{
+    display: flex;
+    justify-content: left;
+    color: #fff;
+    font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.shipto__metuItems{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 2.75rem;
+    width: 6rem;
+    background-color: #191919;
+    
+}
+
+.shipto__flag{
+    margin: 0.5rem 0.5rem;
+    height:2rem ;
+    width: 2.5rem;
+    background-color: #191919;
+}
+
+.shipto__flag img{
+    height:2rem ;
+    width: 2.5rem;
+}
+
+.shipto__small{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.shipto__smallDown{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0 0.5rem;
+}
+
+.myaccount__menuItem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 2.75rem;
+    width: 13.25rem;
+    background-color: #191919;
+    padding: 0 0.5rem;
+}
+
+.myaccount__user{
+    
+    height: 2rem;
+    width: 2rem;
+    padding: 0.5rem 0;
+    background-color: #191919;
+}
+
+.myaccont__icon{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.myaccount__register{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    color: #fff;
+    font-size: 0.8rem;
+    margin: 0 0.2rem;
+}
+
+.shopcart__menuItem{
+    display: flex;
+    flex-direction: row;
+    height: 2.75rem;
+    width: 4.80rem;
+    background-color: #191919
+}
+
+.shopcart__icon{
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+    width: 2rem;
+    color: #fff;
+    font-size: 2rem;
+
+}
+
+.shopcart__numberContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    height: 1rem;
+    width: 2rem;
+    margin: 0rem 0.5rem;
+    border-radius: 50px;
+    padding: 0rem 0;
+}
+
+.shopcart__number span{
+    display: flex;
+    justify-content: center;
+}
+
+.shopcart__cesta{
+    color: #fff;
+}
+
+
